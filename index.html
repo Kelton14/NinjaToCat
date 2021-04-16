@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja to Cat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="images">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $( ".pic1" ).click(function(){
+            $( this ).attr("src", "img/ninja0.png");
+        })
+        $( ".pic2" ).click(function(){
+            $( this ).attr("src", "img/ninja1.png");
+        })
+        $( ".pic3" ).click(function(){
+            $( this ).attr("src", "img/ninja2.png");
+        })
+        $( ".pic4" ).click(function(){
+            $( this ).attr("src", "img/ninja3.png");
+        })
+        $( ".pic5" ).click(function(){
+            $( this ).attr("src", "img/ninja4.png");
+        })
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <img class= "pic1" src="img/cat0.png" alt="img/ninja0.png">
+            <img class= "pic2" src="img/cat1.png" alt="img/ninja1.png">
+            <img class="pic3" src="img/cat2.png" alt="img/ninja2">
+            <img class= "pic4" src="img/cat3.png" alt="img/ninja3">
+            <img class= "pic5" src="img/cat4.png" alt="img/ninja4">
+        </ul>
+    </div>
+</body>
+</html>
